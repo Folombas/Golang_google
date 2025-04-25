@@ -2,14 +2,13 @@ package main
 
 import "fmt"
 
-func greet(name string) {
-	fmt.Println("Hello, ", name, "!!!")
+func add(a, b int) int {
+	return a + b
 }
-
 
 func main() {
 
-	greet("Alice")
-	greet("Bob")
+	result := add(5, 10)
+	fmt.Println(result)
 	
 }
